@@ -52,14 +52,15 @@ p {
 @media (min-width: 768px) {
   .contenedor-flex {
     display: flex;
-    gap: 2rem;
+    flex-direction: row-reverse;
+    gap: 4rem;
   }
 
   .contenedor-flex article {
-    flex-grow: 3;
+    flex: 3;
   }
 
   .contenedor-flex aside {
-    flex-grow: 1;
+    flex: 1;
   }
 }
